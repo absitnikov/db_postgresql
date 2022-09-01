@@ -23,7 +23,7 @@ collection_year DATE NOT NULL
 CREATE TABLE IF NOT EXISTS track (
 track_id SERIAL PRIMARY KEY,
 track_name VARCHAR(60) NOT NULL,
-track_duration SMALLINT, 
+track_duration NUMERIC NOT NULL, 
 album_id INTEGER NOT NULL REFERENCES album(album_id)
 );
 
