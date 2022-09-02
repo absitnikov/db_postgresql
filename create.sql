@@ -23,7 +23,7 @@ collection_year DATE NOT NULL
 CREATE TABLE IF NOT EXISTS track (
 track_id SERIAL PRIMARY KEY,
 track_name VARCHAR(60) NOT NULL,
-track_duration NUMERIC NOT NULL, 
+track_duration INTEGER NOT NULL, 
 album_id INTEGER NOT NULL REFERENCES album(album_id)
 );
 
@@ -44,3 +44,4 @@ track_id INTEGER NOT NULL REFERENCES track(track_id),
 collection_id INTEGER NOT NULL REFERENCES collection (collection_id),
 CONSTRAINT tc_pk PRIMARY KEY (track_id, collection_id)
 );
+

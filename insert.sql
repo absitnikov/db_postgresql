@@ -53,21 +53,21 @@ VALUES
 
 INSERT INTO track (track_name, track_duration, album_id)
 VALUES 
-	('Time', 6.53, 1),
-    ('Money', 6.21, 1),
-    ('Unstoppable', 3.37, 2),
-    ('Cheap Thrills', 3.30, 2),
-    ('The Ringer', 5.37, 3),
-    ('Lucky You', 4.04, 3),
-    ('One More Time', 5.20, 4),
-    ('Piano Concerto N1', 20.30, 5),
-    ('Черное солнце', 4.48, 6),
-    ('Пора возвращаться домой', 4.48, 6),
-    ('Лайки', 3.30, 6),
-    ('Muster of Puppets', 8.35, 7),
-    ('Orion', 8.27, 7),
-    ('Stupid Love', 3.13, 8),
-    ('Rain On Me', 3.01, 8);
+	('Time', 413, 1),
+    ('Money', 381, 1),
+    ('Unstoppable', 217, 2),
+    ('Cheap Thrills', 210, 2),
+    ('The Ringer', 337, 3),
+    ('Lucky You', 244, 3),
+    ('One More Time', 320, 4),
+    ('Piano Concerto N1', 1230, 5),
+    ('Черное солнце', 288, 6),
+    ('Пора возвращаться домой', 288, 6),
+    ('Лайки', 210, 6),
+    ('Muster of Puppets', 515, 7),
+    ('Orion', 507, 7),
+    ('Stupid Love', 193, 8),
+    ('Rain On Me', 181, 8);
 
 INSERT INTO collection (collection_name, collection_year)
 VALUES 
@@ -96,6 +96,7 @@ VALUES
 	(13, 7),
 	(1, 8),
 	(15, 8);
+
 
 
 

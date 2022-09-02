@@ -5,7 +5,7 @@ SELECT  track_name , track_duration FROM track
 WHERE track_duration = (SELECT MAX(track_duration) FROM track);
 
 SELECT track_name FROM track
-WHERE track_duration >= 3.50;
+WHERE track_duration >= 210;
 
 SELECT collection_name FROM collection
 WHERE EXTRACT (YEAR FROM collection_year) BETWEEN 2018 AND 2020;
